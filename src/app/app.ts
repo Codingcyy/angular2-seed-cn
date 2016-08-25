@@ -6,5 +6,9 @@ import {Component} from '@angular/core';
   selector   : 'app',			//回去查找页面里面的<app>标签
   templateUrl: './app.html',	//外置的独立模板，复杂的模板外置更便于以后维护
 })
+
+/**
+ * AppComponet是根组件，这个组件是直接渲染在body标签里面的，可以类比Extjs里面的ViewPort
+ */
 export class AppComponent {
 }

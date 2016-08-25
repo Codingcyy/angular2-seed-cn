@@ -17,7 +17,7 @@ import {LocationStrategy, HashLocationStrategy} from '@angular/common';
   declarations: [AppComponent, About, RepoBrowser, RepoList, RepoDetail, Home],
   imports     : [BrowserModule, FormsModule, HttpModule, RouterModule.forRoot(rootRouterConfig)],
   providers   : [Github, {provide: LocationStrategy, useClass: HashLocationStrategy}],
-  bootstrap   : [AppComponent]
+  bootstrap   : [AppComponent]//启动点指向AppComponent
 })
 export class AppModule {
 

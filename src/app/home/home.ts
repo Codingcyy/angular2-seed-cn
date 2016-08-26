@@ -1,10 +1,12 @@
 import {Directive,Component,ElementRef,HostListener} from '@angular/core';
 
+//装饰器是给编译器看的，装饰器类似于Spring里面的注解
 @Component({
   selector: 'home',
   styleUrls: ['./home.css'],
   templateUrl: './home.html'
 })
+//实际上就像写一个Java类
 export class Home {
 	welcome:string;
 	items:string[];

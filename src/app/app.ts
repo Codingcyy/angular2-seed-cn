@@ -4,6 +4,7 @@ import {Component} from '@angular/core';
 //采用注解的方式来定义组件，注解是给编译器看的
 @Component({
   selector   : 'app',			//回去查找页面里面的<app>标签
+  styleUrls: ['./app.css'],		//引用外部样式
   templateUrl: './app.html',	//外置的独立模板，复杂的模板外置更便于以后维护
 })
 
